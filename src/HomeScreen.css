@@ -1,0 +1,40 @@
+.category-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40; /* Darker color for better contrast */
+    margin-bottom: 1.5rem;
+  }
+  
+  .article-card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    height: 100%; /* Ensure all cards are of equal height */
+  }
+  
+  .article-card:hover {
+    transform: scale(1.05); /* Scale up card on hover */
+  }
+  
+  .article-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff; /* Primary color for title */
+  }
+  
+  .read-more-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded button */
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3; /* Darker on hover */
+  }
+  

@@ -1,0 +1,76 @@
+.article-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-heading {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .article-metadata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .article-date {
+    color: #333;
+  }
+  
+  .article-sentiment {
+    font-size: 1.5em;
+  }
+  
+  .article-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .article-image {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .article-summary {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .article-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .article-tag {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  
+  .article-link {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .article-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .article-link a:hover {
+    text-decoration: underline;
+  }
+  
